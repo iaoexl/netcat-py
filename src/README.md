@@ -1,10 +1,8 @@
 # nc 使用手册
 
-> Python 实现的网络瑞士军刀，**单文件 + 独立 EXE** 两种形态，零第三方依赖。
-
-> 对标 [eternallybored.org/misc/netcat](https://eternallybored.org/misc/netcat/)，并扩展 **SSL/TLS 加密** 和 **SOCKS5 代理**。
-
-> 纯 Python / PyInstaller 打包，主流杀软不报毒。
+- Python 实现的网络瑞士军刀，**单文件 + 独立 EXE** 两种形态，零第三方依赖。
+- 对标 [eternallybored.org/misc/netcat](https://eternallybored.org/misc/netcat/)，并扩展 **SSL/TLS 加密** 和 **SOCKS5 代理**。
+- 纯 Python / PyInstaller 打包，主流杀软不报毒。
 
 ---
 

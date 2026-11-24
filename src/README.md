@@ -1,7 +1,9 @@
 # nc 使用手册
 
 > Python 实现的网络瑞士军刀，**单文件 + 独立 EXE** 两种形态，零第三方依赖。
+
 > 对标 [eternallybored.org/misc/netcat](https://eternallybored.org/misc/netcat/)，并扩展 **SSL/TLS 加密** 和 **SOCKS5 代理**。
+
 > 纯 Python / PyInstaller 打包，主流杀软不报毒。
 
 ---
@@ -9,8 +11,11 @@
 ## ⚠️ 免责声明（Disclaimer）：
 
 此工具纯属教育用途。
+
 （This tool is created purely for educational purposes.）
+
 请勿在非您所有或未经明确许可的系统上进行测试。
+
 （Do not use it on systems you do not own or have explicit permission to test.）
 
 ---
@@ -66,7 +71,7 @@
 
 ```powershell
 # 加入 PATH (一次性)
-$env:Path += ";d:\scripts\python\netcat\dist"
+$env:Path += ";x:\techtest\netcat-py\dist"
 
 # 查看帮助 / 版本
 nc --help
@@ -612,8 +617,8 @@ nc -z -w 0.3 --threads 200 target 1-1024
 ### Q10: 能把 nc.exe 加入 PATH 全局用吗？
 
 可以，两种方式：
-1. **临时**：`$env:Path += ";d:\scripts\python\netcat\dist"`（当前会话）
-2. **永久**：系统属性 → 环境变量 → Path → 新增 `d:\scripts\python\netcat\dist`
+1. **临时**：`$env:Path += ";;x:\techtest\netcat-py\dist"`（当前会话）
+2. **永久**：系统属性 → 环境变量 → Path → 新增 `;x:\techtest\netcat-py\dist`
 
 之后任何 PowerShell / CMD 窗口里直接敲 `nc --help`。
 

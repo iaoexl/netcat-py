@@ -1,16 +1,22 @@
 # NC-Python版（netcat-py）
 
 > Python 实现的网络瑞士军刀，**单文件 + 独立 EXE** 两种形态，零第三方依赖。
+
 > 对标 [eternallybored.org/misc/netcat](https://eternallybored.org/misc/netcat/)，并扩展 **SSL/TLS 加密** 和 **SOCKS5 代理**。
+
 > 纯 Python / PyInstaller 打包，主流杀软不报毒。
+
 > 
 > [netcat.py](src/netcat.py)  脚本系利用Agent工具在Windows环境中编辑、运行、测试，适配 [python-3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0rc2-amd64.exe) 程序。
 
 ## ⚠️ 免责声明（Disclaimer）：
 
 此工具纯属教育用途。
+
 （This tool is created purely for educational purposes.）
+
 请勿在非您所有或未经明确许可的系统上进行测试。
+
 （Do not use it on systems you do not own or have explicit permission to test.）
 
 ## 操作手册
